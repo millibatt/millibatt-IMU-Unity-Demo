@@ -21,10 +21,21 @@ https://youtu.be/URmmf9Vr7ig
 
 <img src="images/finger_tip.png" width="200">
 
-### IMU dev kit components
+### IMU development kit components
 1. IMU module
 2. Nimbus9 battery
 3. USB charging stick
 4. USB bluetooth receiver
 
 <img src="images/hardwares.png" width="400">
+
+### Charging a battery(Nimbus9)
+*Please refer to Section 1: Precautions for Safe Operation before charging.*
+
+Nimbus 9 battery ships 30% charged (voltage ~ 3.7 V). You need to charge the battery before using. The IMU comes with cables connected to a USB charger.
+
+To charge the battery simply plug the USB charger stick to a USB port. Make sure the RED cable is connected to the innermost pin as shown in the picture below. There will be a red LED light on while charging. Once the battery is fully charged, the red LED light will turn off. Normally, it may take about 2 hours to fully charge the battery. The runtime of a fully charged battery is 2-3 hours.
+
+You can operate the module while connected to the USB charger as long as the battery is installed.
+
+<img src="images/wire_connections.jpg" height="300">

@@ -51,19 +51,21 @@ You can operate the module while connected to the USB charger as long as the bat
 
 ## Bulid an Unity project
 1. Create a new Unity project. 
-    Choose "3D" teamplate and make a project name as "IMU_Control_volt_beta"
+    * Choose "3D" teamplate and make a project name as "IMU_Control_volt_beta"
     
 2. Create a Cube object.
-    GameObject -> 3D Object -> Cube
+    * GameObject -> 3D Object -> Cube
     
 3. Set scale of the Cube.
-    Click the "Cube" in the Hierachy window
-    Inspection window: Set Scale (1, 1, 0.1)
+    * Click the "Cube" in the Hierachy window
+    * Go to the Inspection window 
+    * Set Scale (1, 1, 0.1)
 
 4. Create a 3D Text object under Main Camera
-    Right click the "Main Camera" in the Hierachy window: 3D Object -> 3D Text
+    * Right click the "Main Camera" in the Hierachy window -> 3D Object -> 3D Text
     
 5. Set scale and change name of the 3D Text
-    Click the "New Text" in the Hierachy window
-    Inspection window: Rename to "Volt"
-                       Set Position (-2, 0, 4)
+    * Click the "New Text" in the Hierachy window
+    * Go to the Inspection window
+    * Rename to "Volt"
+    * Set Position (-2, 0, 4)

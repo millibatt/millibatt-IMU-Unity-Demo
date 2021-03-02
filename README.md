@@ -15,6 +15,4 @@ https://youtu.be/URmmf9Vr7ig
   <img src="images/battery_insertion.png" width="500">
 
 5. Always switch OFF the Motion sensor when not in use. Leaving it ON with a depleted battery for long periods may damage the battery and require a battery replacement. 
-
-![Alt text](images/hardwares.png?raw=true "Hardwares")
-![Alt text](images/battery_insertion.png?raw=true "battery insertion")
+<img src="images/sensor_OnOff.png" width="400">

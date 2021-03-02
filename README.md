@@ -44,4 +44,5 @@ You can operate the module while connected to the USB charger as long as the bat
 
 ## Prerequisites
 1. [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers): Download "CP210x Universal Windows Driver" and install "CP210xVCPInstaller_x64.exe"
-2. [Unity](https://store.unity.com/#plans-individual): Personal user has a free version of Unity
+2. [Unity](https://store.unity.com/#plans-individual): Personal user has a free version of Unity. Download and install the Unity.
+3. [Visual Studio](https://visualstudio.microsoft.com/downloads/): Install Visual Studio 2019.

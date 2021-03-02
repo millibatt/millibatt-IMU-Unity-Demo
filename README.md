@@ -60,6 +60,7 @@ You can operate the module while connected to the USB charger as long as the bat
     * Click the "Cube" in the Hierachy window
     * Go to the Inspection window 
     * Set Scale (1, 1, 0.1)
+    <img src="images/cube.jpg" height="300">
 
 4. Create a 3D Text object under Main Camera
     * Right click the "Main Camera" in the Hierachy window -> 3D Object -> 3D Text
@@ -69,3 +70,4 @@ You can operate the module while connected to the USB charger as long as the bat
     * Go to the Inspection window
     * Rename to "Volt"
     * Set Position (-2, 0, 4)
+    <img src="images/volt.jpg" height="300">

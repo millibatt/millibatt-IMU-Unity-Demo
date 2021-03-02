@@ -1,4 +1,4 @@
-## Motion sensor in Unity
+# Motion Sensor in Unity
 Thank you for your purchase of our wireless Motion sensor!
 
 The module includes a 6-axis accelerometer & gyroscope to capture motion in the smallest package including BLE and rechargeable battery system.
@@ -6,7 +6,7 @@ If you haven’t already checked out our motion sensor in the works, here is our
 
 https://youtu.be/URmmf9Vr7ig
 
-### Precautions for Safe Operation
+## Precautions for Safe Operation
 1. Motion sensor and Nimbus 9 battery are small and present a choking hazard. Keep them stored safely away from children and animals.
 2. Store the Motion sensor at room temperature. Avoid contact with any liquids.
 3. Keep the battery in use in Motion sensor. Keep the extra batteries in the plastic case provided for the battery individually. Do not store in the same container. Do not place the battery on the metal surface. Handle with provided plastic tweezers only. Do not handle with metal tweezers. This will create external short and potential sparks, heating, of the battery.
@@ -21,7 +21,7 @@ https://youtu.be/URmmf9Vr7ig
 
 <img src="images/finger_tip.png" width="200">
 
-### IMU development kit components
+## IMU development kit components
 1. IMU module
 2. Nimbus9 battery
 3. USB charging stick
@@ -29,7 +29,7 @@ https://youtu.be/URmmf9Vr7ig
 
 <img src="images/hardwares.png" width="400">
 
-### Charging a battery(Nimbus9)
+## Charging a battery(Nimbus9)
 *Please refer to Section 1: Precautions for Safe Operation before charging.*
 
 Nimbus 9 battery ships 30% charged (voltage ~ 3.7 V). You need to charge the battery before using. The IMU comes with cables connected to a USB charger.
@@ -39,3 +39,5 @@ To charge the battery simply plug the USB charger stick to a USB port. Make sure
 You can operate the module while connected to the USB charger as long as the battery is installed.
 
 <img src="images/wire_connections.jpg" height="300">
+
+# Getting Started

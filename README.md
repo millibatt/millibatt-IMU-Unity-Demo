@@ -19,4 +19,12 @@ https://youtu.be/URmmf9Vr7ig
 
 #### Example: IMU dev kit on finger tip for motion capture, interactive concert, game controller, etc.
 
-<img titile="Finger tip" src="images/finger_tip.png" width="200">
+<img src="images/finger_tip.png" width="200">
+
+### IMU dev kit components
+1. IMU module
+2. Nimbus9 battery
+3. USB charging stick
+4. USB bluetooth receiver
+
+<img src="images/hardwares.png" width="400">

@@ -48,3 +48,7 @@ You can operate the module while connected to the USB charger as long as the bat
 3. [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 #### Below demonstration was built and tested in Windows 10 64-bit
+
+## Bulid an Unity project
+1. Create a new Unity project. Choose "3D" teamplate and make a project name as "IMU_Control_volt_beta"
+2. 

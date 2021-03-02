@@ -17,6 +17,6 @@ https://youtu.be/URmmf9Vr7ig
 5. Always switch OFF the Motion sensor when not in use. Leaving it ON with a depleted battery for long periods may damage the battery and require a battery replacement. 
 <img src="images/sensor_OnOff.png" width="400">
 
-Example: IMU dev kit on finger tip for motion capture, interactive concert, game controller, etc.
+#### Example: IMU dev kit on finger tip for motion capture, interactive concert, game controller, etc.
 
 <img titile="Finger tip" src="images/finger_tip.png" width="200">

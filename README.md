@@ -75,3 +75,4 @@ You can operate the module while connected to the USB charger as long as the bat
 6. Download a source code and a IMU module image
     * https://github.com/millibatt/millibatt-IMU-Unity-Demo/tree/main/source
     * Save the files in the "IMU_Control_volt_beta\Assets\" folder.
+    <img src="images/source_files.png" height="150">

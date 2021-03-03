@@ -56,11 +56,12 @@ You can operate the module while connected to the USB charger as long as the bat
 2. Create a Cube object.
     * GameObject -> 3D Object -> Cube
     
-3. Set scale of the Cube.
+3. Set scale and change name of the Cube.
     * Click the "Cube" in the Hierachy window
     * Go to the Inspection window 
+    * Rename to "IMU_Device"
     * Set Scale (1, 1, 0.1)
-    <img src="images/cube.png" height="200">
+    <img src="images/IMU_image.png" height="200">
 
 4. Create a 3D Text object under Main Camera
     * Right click the "Main Camera" in the Hierachy window -> 3D Object -> 3D Text

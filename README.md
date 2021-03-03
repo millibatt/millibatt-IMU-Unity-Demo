@@ -102,3 +102,7 @@ You can operate the module while connected to the USB charger as long as the bat
     * Go to "Player Settings"
     * API Compatibility level*: .NET 4.x
     <img src="images/unity_setting.png" height="200">
+
+11. Run the Demo.
+    * Turn on the IMU module
+    * Run the unity project: Click the "play button"

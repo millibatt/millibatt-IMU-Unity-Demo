@@ -95,3 +95,10 @@ You can operate the module while connected to the USB charger as long as the bat
     * In line 28, "Volt" is the name of 3D Text object
     * Save the modified code -> Unity will do compiling automatically.
     <img src="images/modified_code.png" height="300">
+
+10. API Compatibility level.
+    * Go to "File -> Build Settings"
+    * Architecture: x86_64
+    * Go to "Player Settings"
+    * API Compatibility level*: .NET 4.x
+    <img src="images/unity_setting.png" height="200">

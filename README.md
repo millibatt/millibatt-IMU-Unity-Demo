@@ -95,3 +95,30 @@ You can operate the module while connected to the USB charger as long as the bat
     * In line 28, "Volt" is the name of 3D Text object
     * Save the modified code -> Unity will do compiling automatically.
   
+```text
+public class IMU_Control_volt_beta: MonoBehaviour
+{	
+	public static SerialPort serialPort = new SerialPort ("COM3", 115200);
+	GameObject IMU_Device;	//Object used for showing orietation changing in real-time
+	Quaternion IMU_DeviceQuat = Quaternion.identity; //Quaternion is used to represent orietation
+	float []q=new float[5]; //q0,q1,q2,q3,v //Data from IMU includes quternion (q0,q1,q2,q3) and voltage v
+	GameObject VoltText; // text object to show voltage in real-time
+	TextMesh textMesh_volt; // text mesh 
+	float Voltage; //voltage value
+	bool startMark = false; //flag of start running
+	bool loseconnection=false; //flag of losing bluetooth connection
+	Thread uartThread; //Second Thread to read data from serial port 
+
+	//Inititalize the scene
+	void Start () 
+	{
+		OpenConnection ();	// Build the connection
+		IMU_Device = GameObject.Find("IMU_Device"); //find object to be updated
+		IMU_DeviceQuat = IMU_Device.transform.rotation;//retrive the orietation from the object
+		VoltText = GameObject.Find ("Volt"); //find the text object
+		textMesh_volt = VoltText.GetComponent <TextMesh> (); // assign the mesh
+		ThreadStart mThreadStart = new ThreadStart (UARTStreamer);//define a new thread for streaming data		
+		uartThread = new Thread (mThreadStart); 		
+		uartThread.Start ();//start the new thread for streaming data
+	}
+```

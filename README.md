@@ -81,3 +81,17 @@ You can operate the module while connected to the USB charger as long as the bat
 7. Add a image texture on the "IMU_Device".
     * Drag "Assets\IMU_photo.jpg" in the Project window on the "IMU_Device" in Hierachy window.
     <img src="images/IMU_texture.png" height="150">
+
+8. Check the serial port of the USB bluetooth reciever.
+    * Go to "Device Manager" -> Ports (COM & LPT)
+    * For Silcon Labs CP210x USB UART Bridge driver(COM3), 3 is the serial port numer
+    <img src="images/device_manager.png" height="200">
+    
+9. Modify the source code.
+    * Open "Assets\IMU_Control_volt_beta.cs" file in the Visual Studio
+    * In line 9, match the class name("IMU_Control_volt_beta") as your unity project name("IMU_Control_volt_beta")
+    * In line 11, update your serial port number: COM5 -> COM3
+    * In line 26, "IMU_Device" is the name of 3D Cube object.
+    * In line 28, "Volt" is the name of 3D Text object
+    * Save the modified code -> Unity will do compiling automatically.
+  

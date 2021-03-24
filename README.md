@@ -23,9 +23,9 @@ https://youtu.be/URmmf9Vr7ig
 
 ## IMU development kit components
 1. IMU module
-2. Nimbus9 battery
+2. USB bluetooth receiver
 3. USB charging stick
-4. USB bluetooth receiver
+4. Nimbus9 battery
 
 <img src="images/hardwares.png" width="400">
 

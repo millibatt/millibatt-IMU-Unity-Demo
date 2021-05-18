@@ -76,11 +76,11 @@ You can operate the module while connected to the USB charger as long as the bat
 6. Download a source code and a IMU module image.
     * https://github.com/millibatt/millibatt-IMU-Unity-Demo/tree/main/source
     * Save the files in the "IMU_Control_volt_beta\Assets\" folder.
+    * IMU_Control_volt_beta.cs" and "IMU_photo.jpg"
     <img src="images/source_files.png" height="150">
 
 7. Add a image texture on the "IMU_Device".
     * Drag "Assets\IMU_photo.jpg" in the Project window on the "IMU_Device" in Hierachy window.
-      "IMU_Control_volt_beta.cs" and "IMU_photo.jpg"
     <img src="images/IMU_texture.png" height="150">
 
 8. Check the serial port of the USB bluetooth reciever.
